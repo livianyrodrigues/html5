@@ -1,4 +1,41 @@
-*{margin:0 auto;padding:0 auto;}
-body {width: 900px;}
-#corpo{background:#c0c0c0;}
-.cabecalho{background:red;}
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+
+body {
+	width:900px;
+}
+
+#corpo{
+	background:#c0c0c0;
+	height:550px;
+	background:url('imagens/fundo.png')
+}
+
+.cabecalho{
+	background:url('imagens/topo.png') no-repeat; height:100px;
+}
+
+#logo{float:right;
+}
+
+.menu{
+	list-style:none;
+	margin:0px;
+	padding: 0px;
+	padding-top:30px;
+	padding-left:20px;
+}
+
+nav{float:left;
+	padding-left:20px;
+	padding-right:10px;
+	background:red;
+}
+
+#conteudo{
+	width:900px;
+	width:300px;
+}
+#conteudo_main{float:right;background:url('imagens/conteudo.png') no-repeat;width:760px;height:335px;padding-left:60px;}
