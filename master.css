@@ -36,7 +36,12 @@ h3 {
 p {
 	padding-bottom: 22px;
 }
+#cabecalho{
+	color: #003300;
+	font-family:Arial;
+	
 
+}
 
 
 /*------------------------------
@@ -44,32 +49,47 @@ p {
 ------------------------------*/
 
 nav {
-	position: absolute;
+	position:absolute;
 	left: 0;
-	width: 100%;
-	background: url("images/nav_background.png");
+	width: 940px;
+	background: #467612 url("intro_flower.png");
+	background-color:#006600;
+	margin-left: 200px;
+	height:50px;
+	/* Border-radius not implemented yet */
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+
+
 }
 
 	nav ul {
 		margin: 0 auto;
 		width: 940px;
 		list-style: none;
+
+		
 	}
 
 		nav ul li {
 			float: left;
+
+			
 		}
 		
 			nav ul li a {
 				display: block;
-				margin-right: 20px;
+				margin-right:40px;
 				width: 140px;
-				font-size: 14px;
-				line-height: 44px;
-				text-align: center;
-				text-decoration: none;
-				color: #777;
-			}
+				font-size:14px;
+				line-height:44px;
+				text-align:center;
+				text-decoration:none;
+				color:#003300;
+
+				
+
+				}
 			
 				nav ul li a:hover {
 					color: #fff;
@@ -80,9 +100,9 @@ nav {
 			}
 			
 			nav ul li.subscribe a {
-				margin-left: 22px;
-				padding-left: 33px;
-				text-align: left;
+				margin-left:22px;
+				padding-left:33px;
+				text-align:left;
 				background: url("images/rss.png") left center no-repeat;
 			}
 
@@ -94,7 +114,7 @@ nav {
 
 #intro {
 	position: relative;
-	margin-top: 66px;
+	margin-top: 60px;
 	padding: 44px;
 	background: #467612 url("images/intro_background.png") repeat-x;
 	
